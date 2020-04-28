@@ -247,7 +247,7 @@ Once the client package is installed, we can test out the NFS export!  Again on 
 $ sudo mount 192.168.2.109:/srv/nfs /mnt
 
 # See if the nfs_test file is visible:
-$ cat /srv/nfs/nfs_test
+$ cat /mnt/nfs_test
 Can you see this?
 ```
 
