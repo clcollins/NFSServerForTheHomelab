@@ -6,6 +6,8 @@ I have written before about setting up our Private Cloud at Home, a homelab made
 
 Let's get started!
 
+![A Raspberry Pi with a USB hard disk, glowing pleasantly](img/feature.jpg)
+
 ## Installing the NFS Server Software
 
 In this example, we are running Fedora Server on a Raspberry Pi, but this can be done with other distributions as well. On Fedora, to run an NFS server we need the "nfs-utils" package, and lucky for us, it is already installed, at least in Fedora 31. We also need the rpcbind package if we are planning to run NFSv3 services, but it is not strictly required for NFSv4.
