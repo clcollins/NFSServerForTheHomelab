@@ -1,3 +1,5 @@
+#This repository is archived and will no longer receive updates.
+
 # Add shared filesystems to your homelab with an NFS server
 
 A shared filesystem is a great way to add versatility and functionality to a homelab. A centralized filesystem shared among clients in the homelab makes organizing data and making backups considerably easier, and allows the clients to share data between them.  This is especially useful for both web applications load-balanced across multiple servers, and for persistent volumes used by Kubernetes, allowing pods to be spun up with persistent data on any number of nodes. Whether your homelab is made up of ordinary computers, surplus enterprise servers or Raspberry Pis or other Single Board Computers (SBCs), a shared filesystem is a useful asset, and an NFS server is a great way to create one.
